@@ -1,4 +1,7 @@
 :root {
+  --f-global-font: 'Inter', sans-serif;
+  --c-text-main: #232e35;
+  --c-background: #fff;
 }
 
 /* ! ------------------------- GLOBAL STYLES ------------------------- */
@@ -27,9 +30,9 @@ ol {
 
 .container {
   width: 100%;
-  max-width: ;
+  max-width: 1274px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 
 .link {
@@ -41,10 +44,10 @@ ol {
 }
 
 body {
-  /* background-color: var(--c-background);
+  background-color: var(--c-background);
   font-family: var(--f-global-font);
-  color: var(--c-text-main); */
-  /* font-size: var(--fsz-body); */
+  color: var(--c-text-main);
 }
 
 /* ! ------------------------- HEADER ------------------------- */
+.page-header
