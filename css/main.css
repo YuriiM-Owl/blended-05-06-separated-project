@@ -6,10 +6,9 @@
 
 /* ! ------------------------- GLOBAL STYLES ------------------------- */
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+body {
+  font-family: var(--f-global-font);
+  color: var(--c-text-main);
 }
 
 h1,
@@ -19,13 +18,21 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul,
 ol {
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -43,11 +50,33 @@ ol {
   list-style-type: none;
 }
 
-body {
-  background-color: var(--c-background);
-  font-family: var(--f-global-font);
-  color: var(--c-text-main);
+/* ! ------------------------- HEADER ------------------------- */
+.page-header {
+  padding-top: 40px;
 }
 
-/* ! ------------------------- HEADER ------------------------- */
-.page-header
+.page-header .container {
+  background-color: aqua;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-nav-list {
+  display: flex;
+  gap: 56px;
+}
+
+.header-side-nav {
+  display: flex;
+  gap: 32px;
+}
+
+.page-nav-link {
+  padding: 15px 0;
+}
+
+.btn-page-theme {
+  /* display: block; */
+}
