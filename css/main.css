@@ -80,3 +80,59 @@ img {
 .btn-page-theme {
   /* display: block; */
 }
+
+/* ! ------------------------- HERO ------------------------- */
+.hero-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.hero-section .container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content-wrapper {
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+.subtitle {
+  margin-bottom: 16px;
+  padding-left: 32px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.subtitle::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.main-title {
+  margin-bottom: 32px;
+}
+.hero-description {
+  max-width: 538px;
+  margin-bottom: 40px;
+}
+.hero-socials-list {
+  display: flex;
+  gap: 32px;
+}
+
+.backgr-photo {
+  width: 336px;
+  height: 400px;
+  background-color: #eae6fe;
+  border-radius: 16px;
+}
+.hero-photo-wrapper {
+  padding-right: 9px;
+}
