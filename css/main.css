@@ -1,7 +1,15 @@
 :root {
+  /** -------------------- FONTS --------------------  */
   --f-global-font: 'Inter', sans-serif;
+  --f-accent-font: 'Plus Jakarta Sans', sans-serif;
+
+  /** -------------------- COLORS --------------------  */
   --c-text-main: #232e35;
+  --c-text-sub: #656d72;
   --c-background: #fff;
+  --c-sub-background: #fbfbfb;
+  --c-primary: #7e74f1;
+  --c-decoration: #eae6fe;
 }
 
 /* ! ------------------------- GLOBAL STYLES ------------------------- */
