@@ -102,11 +102,23 @@ img {
 }
 
 .page-header .container {
-  background-color: aqua;
   height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 41px;
+    width: 114px;
+    overflow: hidden;
+}
+
+.logo-icon{
+  
 }
 
 .page-nav-list {
@@ -147,6 +159,11 @@ img {
 .main-title {
   margin-bottom: 32px;
 }
+
+.title-accent{
+  color: var(--c-primary);
+}
+
 .hero-description {
   max-width: 538px;
   margin-bottom: 40px;
