@@ -1,0 +1,23 @@
+@media screen and (min-width: 414px) {
+  .container {
+    max-width: 414px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 30px;
+  }
+
+  .btn {
+    padding: 16px 24px;
+  }
+}
+
+@media screen and (min-width: 1274px) {
+  .container {
+    max-width: 1274px;
+    padding: 0 30px;
+  }
+}

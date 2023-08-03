@@ -10,12 +10,17 @@
   --c-sub-background: #fbfbfb;
   --c-primary: #7e74f1;
   --c-decoration: #eae6fe;
+  --c-decoration-alt: #f1f1f1;
+
+  /** -------------------- TRANSITIONS --------------------  */
+  --trn-main-transition-params: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ! ------------------------- GLOBAL STYLES ------------------------- */
+/* ! ---------------------- GLOBAL STYLES ---------------------- */
 
 body {
   font-family: var(--f-global-font);
+  background-color: var(--c-background);
   color: var(--c-text-main);
 }
 
@@ -30,11 +35,16 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style-type: none;
 }
 
 img {
@@ -43,11 +53,23 @@ img {
   height: auto;
 }
 
+input,
+textarea {
+  outline: transparent;
+}
+
+address {
+  font-style: normal;
+}
+
+.scroll-lock {
+  overflow: hidden;
+}
+
 .container {
   width: 100%;
-  max-width: 1274px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 .main-title {
@@ -88,97 +110,41 @@ img {
   font-weight: 500;
 }
 
-.link {
-  text-decoration: none;
+.text {
 }
 
-.list {
-  list-style-type: none;
+.text-smaller {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.section-alt-bg {
+  background-color: var(--c-sub-background);
+}
+
+.btn {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 10px 18px;
 }
 
 /* ! ------------------------- HEADER ------------------------- */
-.page-header {
-  padding-top: 40px;
-}
 
-.page-header .container {
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/* * ------------------------- HERO ------------------------- */
 
-.logo{
-  display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 41px;
-    width: 114px;
-    overflow: hidden;
-}
+/* * ---------------------- SPECIALIZATION ---------------------- */
 
-.logo-icon{
-  
-}
+/* * ------------------------- PORTFOLIO ------------------------- */
 
-.page-nav-list {
-  display: flex;
-  gap: 56px;
-}
+/* * ------------------------- EXPERIENCE ------------------------- */
 
-.header-side-nav {
-  display: flex;
-  gap: 32px;
-}
+/* * ------------------------- BLOG ------------------------- */
 
-.page-nav-link {
-  padding: 15px 0;
-}
+/* * ---------------------- TESTIMONIALS ---------------------- */
 
-.btn-page-theme {
-  /* display: block; */
-}
+/* * ---------------------- HEEDUCATIONRO ---------------------- */
 
-/* ! ------------------------- HERO ------------------------- */
-.hero-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
-.hero-section .container {
-  display: flex;
-  justify-content: space-between;
-}
-.hero-content-wrapper {
-  padding-top: 105px;
-  padding-bottom: 105px;
-}
-.hero-section .subtitle {
-  margin-bottom: 16px;
-}
+/* ! ------------------------- FOOTER ------------------------- */
 
-.main-title {
-  margin-bottom: 32px;
-}
-
-.title-accent{
-  color: var(--c-primary);
-}
-
-.hero-description {
-  max-width: 538px;
-  margin-bottom: 40px;
-}
-.hero-socials-list {
-  display: flex;
-  gap: 32px;
-}
-
-.backgr-photo {
-  width: 336px;
-  height: 400px;
-  background-color: #eae6fe;
-  border-radius: 16px;
-}
-.hero-photo-wrapper {
-  padding-right: 9px;
-}
+/* ! ------------------------- MODAL ------------------------- */
