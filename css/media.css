@@ -10,14 +10,60 @@
     padding: 0 30px;
   }
 
+  .education .container{
+    width: 600px;
+    padding: 0 30px;
+  }
+
   .btn {
     padding: 16px 24px;
   }
+
+  .skills-name::after{
+    width: 551px;
+  }
+
+  .react::before{
+    width: 372px;
+  }
+
+  .angular::before{
+    width: 286px;
+  }
+
+  .javascript::before{
+    width: 352px;
+  }
+
+
+
 }
 
 @media screen and (min-width: 1274px) {
   .container {
     max-width: 1274px;
     padding: 0 30px;
+  }
+
+  .education .container{
+    width: 100%;
+  }
+
+  .education{
+    padding-top: 105px;
+    padding-bottom: 224px;
+  }
+
+  .education-block{
+    display: flex;
+  }
+  .text-block{
+    display: flex;
+    flex-direction: column;
+    margin-left: 245px;
+  }
+
+  .education-text{
+   
   }
 }

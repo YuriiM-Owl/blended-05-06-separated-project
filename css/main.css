@@ -144,6 +144,146 @@ address {
 /* * ---------------------- TESTIMONIALS ---------------------- */
 
 /* * ---------------------- EDUCATION ---------------------- */
+.education {
+  padding: 80px 0;
+}
+
+.education .subtitle{
+  margin-bottom: 9px;
+}
+
+.education .section-title {
+  font-size: 30px;
+  /* text-align: center; */
+  margin-bottom: 60px;
+}
+
+.education-list {
+}
+
+ .degrees-block {
+   margin-left: 30px;
+ }
+
+.education-list-item {
+  position: relative;
+}
+
+.education-list-item::before{
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 140px;
+  background-color: var(--c-decoration-alt);
+  top: 20%;
+  left: -24px;
+}
+
+.education-list-item:last-child::before{
+  display: none;
+}
+
+.education .local-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  position: relative;
+ 
+}
+.education .local-title::before{
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-color: var(--c-decoration-alt);
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  transform: translateX(-200%);
+  
+}
+
+.education-degrees {
+  color: var(--c-text-sub);
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.education-data {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 64px;
+}
+
+.education-text {
+  color: var(--c-text-sub);
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 64px;
+  max-width: 584px;
+}
+
+.skills-list {}
+
+.skills-list-item {}
+
+.skills-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+.react::before{
+  content: '';
+  width: 67%;
+  height: 8px;
+  position: absolute;
+  background-color: #7E74F1;
+  border-radius: 2px 0px 0px 2px;
+  top: 40px;
+  z-index: 2;
+  left: 0;
+}
+
+.angular::before{
+  content: '';
+    width: 52%;
+    height: 8px;
+    position: absolute;
+    background-color: #7E74F1;
+    border-radius: 2px 0px 0px 2px;
+    top: 40px;
+    z-index: 2;
+    left: 0;
+  }
+
+  .javascript::before{
+    content: '';
+      width: 64%;
+      height: 8px;
+      position: absolute;
+      background-color: #7E74F1;
+      border-radius: 2px 0px 0px 2px;
+      top: 40px;
+      z-index: 2;
+      left: 0;
+
+  }
+
+
+
+.skills-name::after{
+  content: '';
+  width: 100%;
+  height: 8px;
+  top: 100%;
+  left: 0;
+  transform: translateY(24px);
+  position: absolute;
+  background-color: #F5F3FE;
+  border-radius: 0px 2px 2px 0px;
+}
 
 /* ! ------------------------- FOOTER ------------------------- */
 
